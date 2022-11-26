@@ -29,8 +29,7 @@
 https://leanexcelsolutions.com/sales-dashboard-in-excel-power-bi/
 
 https://www.youtube.com/watch?v=CGgXHsD19Ek&t=93s
-
-  /*   ![CAD](pics/Sales.png) */
+!!!   ![CAD](pics/Sales.png) !!!
 --
 ![CAD](pics/SalesUpdated.png)
 
