@@ -33,6 +33,10 @@ https://www.youtube.com/watch?v=CGgXHsD19Ek&t=93s
 <!--  ![CAD](pics/Sales.png) -->
 --
 ![CAD](pics/SalesUpdated.png)
+
+## Customer Analytics Dashboard in Power BI
+https://leanexcelsolutions.com/customer-analytics-dashboard-in-power-bi/
+
 ![CAD](pics/CustomerFeedback.png)
 
 
