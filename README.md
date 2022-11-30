@@ -19,9 +19,13 @@
 7 Publish
 
 -------------------
+## Sales Distribution Dashboard in Power BI | Power BI Dashboard
 
+https://www.youtube.com/watch?v=C-Cvaqmchq0
 
+https://leanexcelsolutions.com/sales-distribution-dashboard-in-excel-and-power-bi/
 
+<!--  ![CAD](pics/Sales.png) -->
 
 
 ## Sales Dashboard
