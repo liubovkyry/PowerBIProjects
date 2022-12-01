@@ -27,6 +27,15 @@ https://leanexcelsolutions.com/sales-distribution-dashboard-in-excel-and-power-b
 
 <!--  ![CAD](pics/Sales.png) -->
 
+## Customer Analytics Dashboard in Power BI
+https://leanexcelsolutions.com/customer-analytics-dashboard-in-power-bi/
+
+![CAD](pics/ReportHeadline.png)
+
+![CAD](pics/ReportRegional.png)
+
+![CAD](pics/ReportDecompositionTree.png)
+
 
 ## Sales Dashboard
 
@@ -35,7 +44,7 @@ https://leanexcelsolutions.com/sales-dashboard-in-excel-power-bi/
 https://www.youtube.com/watch?v=CGgXHsD19Ek&t=93s
 
 <!--  ![CAD](pics/Sales.png) -->
---
+
 ![CAD](pics/SalesUpdated.png)
 
 ## Customer Analytics Dashboard in Power BI
