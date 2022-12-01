@@ -29,11 +29,11 @@ https://leanexcelsolutions.com/sales-distribution-dashboard-in-excel-and-power-b
 
 ## Customer Analytics Dashboard in Power BI
 https://leanexcelsolutions.com/customer-analytics-dashboard-in-power-bi/
-
+#### 1 - Report Headline
 ![CAD](pics/ReportHeadline.png)
-
+#### 2 - Report Regional
 ![CAD](pics/ReportRegional.png)
-
+#### 3 - Decomposition Tree
 ![CAD](pics/ReportDecompositionTree.png)
 
 
