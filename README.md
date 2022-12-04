@@ -26,6 +26,7 @@ https://www.youtube.com/watch?v=C-Cvaqmchq0
 https://leanexcelsolutions.com/sales-distribution-dashboard-in-excel-and-power-bi/
 
 ![CAD](pics/SalesDistributionLightTheme.png)
+![CAD](pics/SalesDistributionDarkTheme.png)
 
 
 ## Customer Analytics Dashboard in Power BI
