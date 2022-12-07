@@ -26,8 +26,8 @@ https://app.datacamp.com/learn/courses/case-study-hr-analytics-in-power-bi
 
 ![CAD](pics/HRAnalyticsOverview.png)
 ![CAD](pics/HRAnalyticsDemographics2.png)
-![CAD](pics/SalesDistributionLightTheme.png)
-![CAD](pics/SalesDistributionDarkTheme.png)
+![CAD](pics/HRAnalyticsPerformanceTracker3.png)
+![CAD](pics/HRAnalyticsAttrition4.png)
 
 ## Sales Distribution Dashboard in Power BI | Power BI Dashboard
 
