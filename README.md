@@ -19,6 +19,16 @@
 7 Publish
 
 -------------------
+
+## HR Analytics in Power BI
+
+https://app.datacamp.com/learn/courses/case-study-hr-analytics-in-power-bi
+
+![CAD](pics/HRAnalyticsOverview.png)
+![CAD](pics/HRAnalyticsDemographics2.png)
+![CAD](pics/SalesDistributionLightTheme.png)
+![CAD](pics/SalesDistributionDarkTheme.png)
+
 ## Sales Distribution Dashboard in Power BI | Power BI Dashboard
 
 https://www.youtube.com/watch?v=C-Cvaqmchq0
