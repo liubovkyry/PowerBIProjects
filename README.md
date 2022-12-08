@@ -39,8 +39,11 @@ https://leanexcelsolutions.com/sales-distribution-dashboard-in-excel-and-power-b
 ![CAD](pics/SalesDistributionDarkTheme.png)
 
 
-## Customer Analytics Dashboard in Power BI
-https://leanexcelsolutions.com/customer-analytics-dashboard-in-power-bi/
+## How to buid Report in Power BI
+
+https://www.youtube.com/watch?v=Z2t7l8b1uWU
+
+https://www.myonlinetraininghub.com/how-to-build-power-bi-dashboards
 #### 1 - Report Headline
 ![CAD](pics/ReportHeadline.png)
 #### 2 - Report Regional
