@@ -19,6 +19,15 @@
 7 Publish
 
 -------------------
+## Power BI Dashboards - Non-Financial Data Analysis
+
+https://www.youtube.com/watch?v=Of2ML6TjkAI
+
+## Sales Dashboard in Power BI
+
+https://www.youtube.com/watch?v=SGyMYG6C91M
+
+
 
 ## HR Analytics in Power BI
 
