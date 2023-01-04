@@ -19,6 +19,10 @@
 7 Publish
 
 -------------------
+## Full Power BI Guided Project
+
+https://www.youtube.com/watch?v=pixlHHe_lNQ
+
 ## Power BI Dashboards - Non-Financial Data Analysis
 
 https://www.youtube.com/watch?v=Of2ML6TjkAI
