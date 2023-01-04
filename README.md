@@ -19,6 +19,10 @@
 7 Publish
 
 -------------------
+
+## Power BI Dashboards - Non-Financial Data Analysis
+
+
 ## HR Analytics in Power BI
 
 
