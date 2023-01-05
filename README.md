@@ -20,7 +20,7 @@
 
 -------------------
 
-## Power BI Dashboards - Non-Financial Data Analysis
+
 
 
 ## HR Analytics in Power BI
@@ -64,5 +64,10 @@
 
 
 ![CAD](pics/CustomerFeedback.png)
+
+## Power BI Reports - Non-Financial Data Analysis
+![CAD](pics/studentReport.png)
+![CAD](pics/staffReport.png)
+
 
 
