@@ -66,7 +66,7 @@
 ![CAD](pics/CustomerFeedback.png)
 
 ## Power BI Reports - Non-Financial Data Analysis
-![CAD](pics/studentReport.png)
+![CAD](pics/studentsReport.png)
 ![CAD](pics/staffReport.png)
 
 
