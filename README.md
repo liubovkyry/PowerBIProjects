@@ -19,8 +19,11 @@
 7 Publish
 
 -------------------
+## Power BI Dashboard for REAL Estate and Property Management
 
-
+<!--  ![CAD](pics/Sales.png) -->
+<!--  ![CAD](pics/Sales.png) -->
+<!--  ![CAD](pics/Sales.png) -->
 
 
 ## HR Analytics in Power BI
