@@ -1,4 +1,5 @@
 # PowerBIDrafts
+<!--  ![CAD](pics/Sales.png) -->
 
 --------------------
 
@@ -59,7 +60,7 @@
 
 
 
-<!--  ![CAD](pics/Sales.png) -->
+
 
 ![CAD](pics/SalesUpdated.png)
 
