@@ -24,7 +24,7 @@
 
 ![CAD](pics/overviewRealEst.png)
 ![CAD](pics/locationRealEst.png)
-![CAD](pics/aboutRealEst.png)
+![CAD](pics/AboutRealEst.png)
 
 
 ## HR Analytics in Power BI
