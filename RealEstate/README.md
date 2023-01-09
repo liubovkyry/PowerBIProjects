@@ -2,4 +2,4 @@
 
 ![CAD](pics/overviewRealEst.png)
 ![CAD](pics/locationRealEst.png)
-![CAD](pics/AboutRealEst.png)
+![CAD](pics/aboutRealEst.png)
