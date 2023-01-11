@@ -20,6 +20,8 @@
 7 Publish
 
 -------------------
+## Competitor Sales Analysis in Power BI
+
 ## Power BI Dashboard for REAL Estate and Property Management
 
 ![CAD](pics/overviewRealEst.png)
