@@ -21,6 +21,8 @@
 
 -------------------
 ## Competitor Sales Analysis in Power BI
+![CAD](pics/CompSalesAnalysis.png)
+![CAD](pics/AdvInsights.png)
 
 ## Power BI Dashboard for REAL Estate and Property Management
 
