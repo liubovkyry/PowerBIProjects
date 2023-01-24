@@ -1,9 +1,6 @@
 # Power BI
-<!--  ![CAD](pics/Sales.png) -->
 
 
-
---------------------
 ## Project steps:
 
 
