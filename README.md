@@ -1,7 +1,8 @@
-# Power BI Projects
+# Power BI Project steps:
 <!--  ![CAD](pics/Sales.png) -->
 
 --------------------
+
 
 0 Gather requirements
 
