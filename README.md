@@ -1,4 +1,4 @@
-# PowerBIProjects
+# Power BI Projects
 <!--  ![CAD](pics/Sales.png) -->
 
 --------------------
