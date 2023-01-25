@@ -21,7 +21,7 @@ gender, date of birth, Hotel checkout date, the purpose of the booking, the sour
  15. Dashboard Header Section
  16. Publish to POWER BI Service
 
-![CAD](pics/CustomerFeedback.png)
+![image](https://user-images.githubusercontent.com/118057504/214578074-4f29e1df-bd15-4d80-bdb4-47be66059606.png)
 
 
 
