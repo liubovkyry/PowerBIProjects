@@ -1,77 +1,27 @@
-# PowerBIProjects
-<!--  ![CAD](pics/Sales.png) -->
-
---------------------
-
-0 Gather requirements
-
-1 Import data to Power BI
-
-2 Edit Data in Power Query Editor
-
-3 Create Columns & measures
-
-4 Create Visuals
-
-5 Format Dashboard Background
-
-6 Format Visuals
-
-7 Publish
-
--------------------
-## Power BI Dashboard for REAL Estate and Property Management
-
-![CAD](pics/overviewRealEst.png)
-![CAD](pics/locationRealEst.png)
-![CAD](pics/AboutRealEst.png)
-
-
-## HR Analytics in Power BI
-
-
-![CAD](pics/HRAnalyticsOverview.png)
-![CAD](pics/HRAnalyticsDemographics2.png)
-![CAD](pics/HRAnalyticsPerformanceTracker3.png)
-![CAD](pics/HRAnalyticsAttrition4.png)
-
-## Sales Distribution Dashboard in Power BI 
 
 
 
+## Customer Feedback Analytic Project steps:
 
-
-![CAD](pics/SalesDistributionLightTheme.png)
-![CAD](pics/SalesDistributionDarkTheme.png)
-
-
-## Report in Power BI
-
-
-#### 1 - Report Headline
-![CAD](pics/ReportHeadline.png)
-#### 2 - Report Regional
-![CAD](pics/ReportRegional.png)
-#### 3 - Decomposition Tree
-![CAD](pics/ReportDecompositionTree.png)
-
-
-## Sales Dashboard
-
-
-
-
-
-![CAD](pics/SalesUpdated.png)
-
-## Customer Analytics Dashboard in Power BI
-
+ 1. Set up survey in MS Forms<!--We are going to use the hotel guest feedback for the demonstration, and these are the 9 questions that we are going to set up in the survey:  the name of the guest,
+gender, date of birth, Hotel checkout date, the purpose of the booking, the source of information, General feedback, the overall rating on a scale of one to five, Net Promoter Score.-->
+ 2. Share & collect Feedback online
+ 3. Set up survey in Google Forms
+ 4. Overview of Input Data
+ 5. Import data to Power BI
+ 6. Data transformation in Power Query Editor
+ 7. Setup Dashboard Background
+ 8. NPS calculation using the columns & measures
+ 9. Add Visuals to Dashboard
+ 10. Set-up Dashboard Theme
+ 11. Format Visuals
+ 12. Organize Visuals
+ 13. Overall Rating Visualization
+ 14. Dashboard formatting
+ 15. Dashboard Header Section
+ 16. Publish to POWER BI Service
 
 ![CAD](pics/CustomerFeedback.png)
-
-## Power BI Reports - Non-Financial Data Analysis
-![CAD](pics/studentsReport.png)
-![CAD](pics/staffReport.png)
 
 
 
