@@ -24,20 +24,20 @@ popular, and profitable,  so they can mark smart decisions about what products t
  * Calendar year 
 
 <i>Note:</i> Seven Sages' Fiscal year begins on October 1st and runs until September 30th. A transaction on Sept 20th 2020 would fall in FY 2020, but a transaction on October 20th would land in FY 2021
- * Fiscal period:
+<!-- * Fiscal period:
  added a custom column ```
- Date.ToText(Date.FromText("01/10/" & Text.From(if Date.Month([Date]) >= 10 then Date.Year([Date]) else Date.Year([Date]) - 1)), "yyyy-MM")```
+ Date.ToText(Date.FromText("01/10/" & Text.From(if Date.Month([Date]) >= 10 then Date.Year([Date]) else Date.Year([Date]) - 1)), "yyyy-MM")```-->
 
 <!--The formula works by checking if the month of the date is greater than or equal to October (month number 10). If it is, then the fiscal year is the same as the year of the date. Otherwise, the fiscal year is the year before the year of the date. The formula then constructs a text string representing the first day of the fiscal year, which is October 1st, using the Date.FromText() and Text.From() functions. Finally, it converts this text string to a date using the Date.FromText() function, and then converts the resulting date to a text string in the format "yyyy-MM" using the Date.ToText() function.
 
 Note that this formula assumes that the date column is in a format that Power Query can recognize as a date, such as "dd/mm/yyyy" or "mm/dd/yyyy". If your date column is in a different format, you may need to adjust the string argument passed to the Date.FromText() function accordingly.-->
- * Fiscal year: 
-added a custom column ```=if [Month] < 10 then "FY" &
+ * FY - Q
+<!-- added a custom column ```=if [Month] < 10 then "FY" &
 Text.End(Number.ToText([Year]-1),2) & "/" &
 Text.End(Number.ToText([Year]),2)
 else "FY" &
 Text.End(Number.ToText([Year]),2) & "/" &
-Text.End(Number.ToText([Year]+1),2)```
+Text.End(Number.ToText([Year]+1),2)```-->
 
 <!--i can write my <code>if</code> formula remember my fiscal year starts on july 1st so i need to test if the month is less than <code>7</code> if it is then i want to concatenate <code>&</code> the text <code>"FY"</code> and iI only want the last <code>2</code> digits of the year so I'm going to use <code>Text.End</code> and I need to convert the year number to text so i'm going to use number two text and I want the year column i'm converting that to text I need to subtract <code>1</code> remember I want the previous year slash <code> / </code> the current year so the first year I want is the previous year so
 
@@ -45,13 +45,13 @@ year minus <code> 1 <code> close my number two text and then i just want the las
 
 let's just copy this right up to the <code>"FY"</code> and I'll paste it below so here instead of minus one we just want the current year because these are for months that are greater than seven and this one here we want to add one and that's it -->
 
- * Fiscal quarter -Quarter - FY (e.g., Q1 - FY2021):
+ * Quarter:
 
 ![image](https://user-images.githubusercontent.com/118057504/220188918-a5804468-b0c4-4661-8b23-cbb25b421617.png)
 
 ## Create a Data Model (build relationships between tables):
 
-![image](https://user-images.githubusercontent.com/118057504/220194583-db5cb4eb-e8ce-4571-a96e-247fca2db3ca.png)
+![image](https://user-images.githubusercontent.com/118057504/220426779-04d01d3d-e6cd-4554-aa0e-22174b68b65a.png)
 
 ## Additionally added some info by using DAX Functions:
 
