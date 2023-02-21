@@ -22,23 +22,6 @@
 
 -------------------
 
-##  Data Model for Seven Sages Brewing Company
-
-### Sales and GPM Overview - Page 1
-
-![image](https://user-images.githubusercontent.com/118057504/220423102-59925e56-f4aa-468c-800d-2b95c4cac1e9.png)
-
-### Gross Profit and Units Sales - Page 2
-
-![image](https://user-images.githubusercontent.com/118057504/220423534-fd2d6b8d-a108-4bcc-97a1-35b6ebd18988.png)
-
-### Products comparison - Page 3
-
-![image](https://user-images.githubusercontent.com/118057504/220423735-9d9ac0e1-44a9-4870-9611-7b29bfa5686e.png)
-
-### Seasonality - Page 4
-
-![image](https://user-images.githubusercontent.com/118057504/220423847-dee9442c-3a57-4658-a71e-c61a3bd726dc.png)
 
 
 
@@ -99,5 +82,23 @@
 ![CAD](pics/studentsReport.png)
 ![CAD](pics/staffReport.png)
 
+
+##  Data Model for Seven Sages Brewing Company
+
+### Sales and GPM Overview - Page 1
+
+![image](https://user-images.githubusercontent.com/118057504/220423102-59925e56-f4aa-468c-800d-2b95c4cac1e9.png)
+
+### Gross Profit and Units Sales - Page 2
+
+![image](https://user-images.githubusercontent.com/118057504/220423534-fd2d6b8d-a108-4bcc-97a1-35b6ebd18988.png)
+
+### Products comparison - Page 3
+
+![image](https://user-images.githubusercontent.com/118057504/220423735-9d9ac0e1-44a9-4870-9611-7b29bfa5686e.png)
+
+### Seasonality - Page 4
+
+![image](https://user-images.githubusercontent.com/118057504/220423847-dee9442c-3a57-4658-a71e-c61a3bd726dc.png)
 
 
