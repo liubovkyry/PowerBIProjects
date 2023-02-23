@@ -41,10 +41,11 @@ The main aim of this project is to compare the new Lapcat devices to the existin
 ### Report Tab 1:
 
 To address the CEO’s questions created:
-Visualizations to highlight the difference between average daily steps over time recorded on Lapdog devices vs. 
-Lapcat devices displaying the trend over time by year and month.
-Visualization to highlight  customer ratings for Lapdog devices vs. Lapcat devices.
-In addition were added slicers to filter our output based on Device type, Pet, Breed, Period, Location.
+
+ - Visualizations to highlight the difference between average daily steps over time recorded on Lapdog devices vs. 
+ - Lapcat devices displaying the trend over time by year and month.
+ - Visualization to highlight  customer ratings for Lapdog devices vs. Lapcat devices.
+ - In addition were added slicers to filter our output based on Device type, Pet, Breed, Period, Location.
 ![image](https://user-images.githubusercontent.com/118057504/221019605-98545455-583e-44c0-bf2f-84bff96489f8.png)
 
 ### Report Tab 2:
@@ -52,19 +53,19 @@ In addition were added slicers to filter our output based on Device type, Pet, B
 To drive insights from the pets dataset, the second tab included:
 
 Displayed on cars: average Heartbeating, Average daily activity in minutes, Average daily steps made by pet.
-A visualization that shows the breed distribution of cats and dogs by avg age and weight.
-2 visualization that highlighted both gender and age distributions.
-In addition were added slicers to filter our output based on  Pet, Gender, State, Year.
+ - A visualization that shows the breed distribution of cats and dogs by avg age and weight.
+ - 2 visualization that highlighted both gender and age distributions.
+ - In addition were added slicers to filter our output based on  Pet, Gender, State, Year.
 ![image](https://user-images.githubusercontent.com/118057504/221019693-a78e27d0-3f48-4f52-97fd-b537cf279f89.png)
 
 ### Report Tab 3:
 To drive insights from the family dataset, the third tab included:
 
-Displayed comparison between annual household income and average pet expenses.
-Visualizations that show distribution by amount of pets in a household, and separately distribution by City.
+ - Displayed comparison between annual household income and average pet expenses.
+ - Visualizations that show distribution by amount of pets in a household, and separately distribution by City.
 ![image](https://user-images.githubusercontent.com/118057504/221022050-7c4e293f-b07f-41aa-be76-4a798a84db85.png)
 
 ### Report Tab 4:
 Family Details:
-Displayed cards with contact details, family information, pets in a family, comment regarding using a Waggle device, that can be obtained with Drill-through option in Power BI.
+ - Displayed cards with contact details, family information, pets in a family, comment regarding using a Waggle device, that can be obtained with Drill-through option in Power BI.
 ![image](https://user-images.githubusercontent.com/118057504/221021820-ee9e064d-7b26-4f0c-a3c0-6bbede3d96fc.png)
