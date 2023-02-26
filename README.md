@@ -22,6 +22,11 @@
 
 -------------------
 
+## Report for Waggle (udacity project)
+![image](https://user-images.githubusercontent.com/118057504/221436743-99848b02-6f10-40fa-ab7a-ac16a92680bf.png)
+![image](https://user-images.githubusercontent.com/118057504/221436796-c3bff2d1-8f5a-429e-b091-e19273ba8348.png)
+![image](https://user-images.githubusercontent.com/118057504/221436874-7e5a5d7f-6c17-4769-8cec-eee33ccc0405.png)
+![image](https://user-images.githubusercontent.com/118057504/221436897-470f736f-cba5-4074-811c-c595ebc3cb79.png)
 
 
 
