@@ -19,3 +19,18 @@ and comparing that against the census data.
  - to analyze our inventory, specifically
 customer ratings and return rate and see if there’s a correlation between the two. 
 
+These were the <b>key</b> visualizations required:
+
+Scatter Plot with linear regression formula and r² value to show relationship between Average Household Income by State and Average 6 Months Sales by State that displayed a <i>strong positive correlation</i> between average income and average sales.
+
+Scatter Plot  show relationship between Customer Ratings and Product Return Rate. There is a <i>strong negative correlation</i> between customer ratings and return rate.
+
+
+Filled map was used to visualize Average and Predicted Household Income distribution across the US
+
+
+## Tab 1: Income and Sales Insights
+![image](https://user-images.githubusercontent.com/118057504/223552002-9de7e5a8-60f1-4837-bb07-a2a3b0c78b54.png)
+
+## Tab 2: Products and rating Insights
+![image](https://user-images.githubusercontent.com/118057504/223552198-25ef3e2a-100c-4427-99ff-1632f6034abe.png)
