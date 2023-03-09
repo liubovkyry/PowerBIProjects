@@ -50,8 +50,14 @@ Scatter Plot  show relationship between Customer Ratings and Product Return Rate
 Filled map was used to visualize Average and Predicted Household Income distribution across the US
 
 
-## Tab 1: Income and Sales Insights
+### Tab 1: Income and Sales Insights
 ![image](https://user-images.githubusercontent.com/118057504/223552002-9de7e5a8-60f1-4837-bb07-a2a3b0c78b54.png)
 
-## Tab 2: Products and rating Insights
+### Tab 2: Products and rating Insights
 ![image](https://user-images.githubusercontent.com/118057504/223552198-25ef3e2a-100c-4427-99ff-1632f6034abe.png)
+
+### Data Processing
+### Categorizing Data
+### Data Analysis/Visualizations
+
+<!--https://medium.com/analytics-vidhya/data-analysis-in-power-bi-from-start-to-finish-dashboard-aea219dd557a-->
