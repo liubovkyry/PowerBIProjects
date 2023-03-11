@@ -1,16 +1,12 @@
 
  # Visualising Flight Delays Project 
 
-
  Using BI and Data Visualization tools created analysis of flight delays in the USA for 2021 and presented a dashboard.
- 
- 
- 
  
  ## Data
 
-
 The data set provided by the U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics (BTS) which tracks the on-time performance of non-stop domestic flights operated by airline carriers that have at least one percent of total domestic scheduled service passenger revenue and provides summary information on the number of on-time, delayed, canceled and diverted flights. 
+
 The link to download the dataset is: https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp
 
 The BTS data set consists of approximately 19,955 rows with 21 variables. These variables include nominal data like airport and airline unique identifiers, names, city, and state as well as quantitative data such as number of on-time flights and number and length of delays by cause for major airlines by airports. Each row contains the data reported monthly by a specific carrier 6 for a single airport spanning 2021. 
@@ -82,21 +78,26 @@ On the Table Visual and Stacked Bar Chart displayed below we can notice the rela
 
 ![image](https://user-images.githubusercontent.com/118057504/224296712-30c40775-b07a-4c71-8923-9256201d0afe.png)
 
+
+---------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/118057504/224116199-bb570055-966e-4991-941d-accf68a32800.png)
+
 ## Conclusion
 
 Using PowerBI features  I developed and presented a data visualization project based on a database of flight of United States. With these data base analisys I was able to asnwer the proposed questions.
 
-Wich are the “types of flight delays”? Wich “type of flight delay” is the most impacting? There are 7 types of flight delays: security, weather, air system, airline, late aircraft, arrival and departure. The most impacting type is departure delay.
-Wich month is the most affected by “flight delays”? June is the month more affected with flight delays.
-In wich state occurs more “flight delays”? Texas has the majos occurance off light delays.
+
 
 ## Resourses
 
-https://mosesandersonong.medium.com/data-visualisation-of-flight-delays-with-tableau-40aa6abf676b
 https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp
 
----------------------------------------------------------------------------------------------
-![image](https://user-images.githubusercontent.com/118057504/224116199-bb570055-966e-4991-941d-accf68a32800.png)
+https://mosesandersonong.medium.com/data-visualisation-of-flight-delays-with-tableau-40aa6abf676b
+
+https://kylewitt.com/projects/dawdle/Dawdle-Full-Report.pdf
+
+
+
 
 
 
