@@ -86,3 +86,66 @@ Diagrams
 
 Requirements: to get a maximum detailed information we will need to add some slicers and filters, including Year, City, State.
 
+### Project Instructions
+
+Step 1. Download and set up.
+
+Downloaded the Sample Superstore data file in CSV format and opened within Power BI and explored the data, removed non-informative columns.
+
+Step 2. Explore and Create a Sketch 
+
+• Read through every question to first understand what data will be needed.
+• Created a sketch of the charts that I think will appropriately answer the user's question.
+
+Step 3. Created Wireframes
+
+• Created multiple wireframes to get charts more organized.
+
+Step 4. Created Proof of Concept Dashboard
+
+• My charts should be able to answer multiple questions
+     <i>Hint:</i> Use slicers to allow the user to explore the data in multiple ways
+• Be sure to respect the constraint of “getting it right in black and white”
+• Developed my proof-of-concept dashboard in Power BI tool
+• Removed unnecessary charts where appropriate.
+
+ 
+### Analysis
+### 1. What is the <i>most profitable City</i> in the State?
+The most profitable city for example in the State Tennessee is <b>Lebanon</b>.
+
+![image](https://user-images.githubusercontent.com/118057504/224751647-5f9ffcc3-f654-496a-8539-e315e5d5d937.png)
+
+### 2. What’s the <i>average annual profit</i> for that specific city across all years?
+The average annual profit made of sales in Levbanon city across all years is <b>$27.7</b>.
+
+![image](https://user-images.githubusercontent.com/118057504/225028569-882ec5b9-b5b9-4b16-a3e0-3e61abd01c8d.png)
+
+### 3. What’s the <i>most profitable product category</i> on average in the city across all years?
+The most profitable category of products sold for example in California,<b> is Office Supplies</b>, that made $38K across 2015-2018 years.
+
+![image](https://user-images.githubusercontent.com/118057504/224759202-a8e8c2db-4407-4ec7-b7e4-002eaff01793.png)
+
+### 4. What is the <i>most popular product</i> in that category across all states?
+The most popular product in Office Supplies category is <b>Staple Envelope</b>, having the highest amount of orders compared to other products in the same category.
+
+![image](https://user-images.githubusercontent.com/118057504/224759844-3d81c176-547b-40c8-bb4c-4fa69c05d316.png)
+
+
+### 5. What was the <i>most profitable month</i> in a year 2018 overall?
+The most profitable month in year 2018 was March bringing almost $15K of profit.
+
+![image](https://user-images.githubusercontent.com/118057504/224760452-3bfa2135-6b8c-44b1-bae1-ed145e8c5b3e.png)
+
+### 6. How widely did monthly profits vary? 
+
+![image](https://user-images.githubusercontent.com/118057504/225034985-eb22b0b7-c6df-4609-ab21-5aeaba004863.png)
+
+
+
+
+### Conclusion
+
+Following the requirements, mentioned in the Project objectives, task 1 ( To display company’s data in the neat and an intuitive way) I developed a dashboard with using some filtering options and performing it in black and white color pallete. Also we can see, that the created dashboard can help us to answer multiple questions.
+
+![image](https://user-images.githubusercontent.com/118057504/225077904-d368f14a-a981-44c7-b6d0-b8ed8e0a56a6.png)
