@@ -109,4 +109,10 @@
 
 ![image](https://user-images.githubusercontent.com/118057504/220423847-dee9442c-3a57-4658-a71e-c61a3bd726dc.png)
 
+## Report for SuperStore
 
+### Profit overview
+![image](https://user-images.githubusercontent.com/118057504/225369517-3eb7bc70-6620-4f41-810f-3eeb232a7fdd.png)
+
+### Sales Performance
+![image](https://user-images.githubusercontent.com/118057504/225369700-0f52f4e4-f0b2-4435-871b-aeff7805844c.png)
