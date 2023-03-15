@@ -149,3 +149,115 @@ The most profitable month in year 2018 was March bringing almost $15K of profit.
 Following the requirements, mentioned in the Project objectives, task 1 ( To display company’s data in the neat and an intuitive way) I developed a dashboard with using some filtering options and performing it in black and white color pallete. Also we can see, that the created dashboard can help us to answer multiple questions.
 
 ![image](https://user-images.githubusercontent.com/118057504/225077904-d368f14a-a981-44c7-b6d0-b8ed8e0a56a6.png)
+
+
+## 2)	Emphasizing key elements to build the KPI dashboard, that will display the main points of interest for further investigation and discussion among executives and their team leads regarding future sales strategy.
+
+1. Top-level revenue, profit, profit ratio and units sold.
+2. YoY performance by customer segment (customer segment refers to
+Corporate, Consumer, Home Office)
+3. Monthly trend of the current year by segment (segment refers to Corporate,
+Consumer, Home Office)
+4. View category performance
+5. Best performing sub-category within each customer segment
+
+### Project Instructions
+ 
+• Top-level revenue, profit, profit ratio and units sold for <b>2018</b>
+
+• YoY performance by customer segment (customer segment refers to Corporate, Consumer, 
+Home Office)
+
+• View sub-category performance by the active metric
+
+• Best performing sub-categories within each customer segment for the chosen metric
+
+• Demonstrate a clear use of alignment so users can easily navigate the UI
+
+• Use color to clearly call attention to the marks that matter most
+
+• Create a text hierarchy:
+
+Dashboard title text
+```
+Part 1 → font: Segoe UI, font size: 24, weight: italic
+Part 2 → font: Segoe UI, font size: 18, weight: normal
+Part 3 → font: Segoe UI, font size: 8, weight: normal
+```
+Body text
+```
+Axis number, sub-categories names, segment names, legends,
+filters and parameter
+font: Segoe UI, font size: 10, weight: normal
+```
+Card visual Text
+```
+Card visual values → font: DIN, font size: 22, weight: normal
+Card visual  description → font: Segoe UI, font size: 12, weight: normal
+```
+Context/instructive text
+```
+Title for graphs
+font: Segoe UI, font size: 10, weight: normal
+```
+
+
+
+Before building a dashboard in Power BI,
+
+I created separate table for date and marked it as a date table:
+
+```
+Date = SUMMARIZE('USA Superstore', 'USA Superstore'[Order Date])
+```
+![image](https://user-images.githubusercontent.com/118057504/225359709-6df35e0d-9117-4d40-ba25-996e64e7117f.png)
+
+
+Then I calculated Year over Year % change of Sales, Profit and Units sold, using next DAX formulas:
+```
+Total Profit YoY% = 
+VAR Sales_LastYear = CALCULATE(SUM('USA Superstore'[Profit]), SAMEPERIODLASTYEAR('Date'[Order Date]))
+RETURN
+DIVIDE(SUM('USA Superstore'[Profit])-Sales_LastYear,Sales_LastYear)
+```
+```
+Total Sales YoY% = 
+VAR Sales_LastYear = CALCULATE(SUM('USA Superstore'[Sales]), SAMEPERIODLASTYEAR('Date'[Order Date]))
+RETURN
+DIVIDE(SUM('USA Superstore'[Sales])-Sales_LastYear,Sales_LastYear)
+```
+```
+Total units sold YoY% = 
+VAR Sales_LastYear = CALCULATE(SUM('USA Superstore'[Quantity]), SAMEPERIODLASTYEAR('Date'[Order Date]))
+RETURN
+DIVIDE(SUM('USA Superstore'[Quantity])-Sales_LastYear,Sales_LastYear)
+```
+
+Next, I added <b>cards</b> to display our metrics:
+
+![image](https://user-images.githubusercontent.com/118057504/225360420-6134a764-7846-4326-9c5c-f098570764cf.png)
+
+
+<b>Slicers</b>, to filter our visuals by selecting Year, Sate, City, Category, Sub- Category, Segment.
+
+<b>Matrix</b> table, to display Year-over-Year change in our metrics by Segment, in %:
+
+![image](https://user-images.githubusercontent.com/118057504/225361211-cba64a44-531b-438b-8f0c-6c36d0f99738.png)
+
+<b>Column chart</b> and custom <b>lollypop column chart</b>, to visualize Sales, Profit and Units sold by Segment and Sub-category + <b>bookmarks</b> for easy filtering:
+
+ Units sold
+ ![image](https://user-images.githubusercontent.com/118057504/225362673-f231c974-69d4-4c72-a4af-b2c87cf82b68.png)
+ 
+ Total Profit
+ ![image](https://user-images.githubusercontent.com/118057504/225362796-673814d3-ef8f-4212-a075-8988cdcfb718.png)
+ 
+ Total Sales
+ ![image](https://user-images.githubusercontent.com/118057504/225362914-ac5a683e-2c1e-4d6e-bdac-e70205b055e4.png)
+
+-------
+Ready dashboard:
+ 
+ ![image](https://user-images.githubusercontent.com/118057504/225363449-03108bd2-caa2-4e41-a41a-9d541b08b86d.png)
+
+### References
