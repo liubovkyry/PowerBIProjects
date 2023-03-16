@@ -216,9 +216,9 @@ Date = SUMMARIZE('USA Superstore', 'USA Superstore'[Order Date])
 Then I calculated Year over Year % change of Sales, Profit and Units sold, using next DAX formulas:
 ```
 Total Profit YoY% = 
-VAR Sales_LastYear = CALCULATE(SUM('USA Superstore'[Profit]), SAMEPERIODLASTYEAR('Date'[Order Date]))
+VAR Profit_LastYear = CALCULATE(SUM('USA Superstore'[Profit]), SAMEPERIODLASTYEAR('Date'[Order Date]))
 RETURN
-DIVIDE(SUM('USA Superstore'[Profit])-Sales_LastYear,Sales_LastYear)
+DIVIDE(SUM('USA Superstore'[Profit])-Profit_LastYear,Profit_LastYear)
 ```
 ```
 Total Sales YoY% = 
@@ -228,10 +228,11 @@ DIVIDE(SUM('USA Superstore'[Sales])-Sales_LastYear,Sales_LastYear)
 ```
 ```
 Total units sold YoY% = 
-VAR Sales_LastYear = CALCULATE(SUM('USA Superstore'[Quantity]), SAMEPERIODLASTYEAR('Date'[Order Date]))
+VAR Units_LastYear = CALCULATE(SUM('USA Superstore'[Quantity]), SAMEPERIODLASTYEAR('Date'[Order Date]))
 RETURN
-DIVIDE(SUM('USA Superstore'[Quantity])-Sales_LastYear,Sales_LastYear)
+DIVIDE(SUM('USA Superstore'[Quantity])-Units_LastYear,Units_LastYear)
 ```
+
 
 Next, I added <b>cards</b> to display our metrics:
 
