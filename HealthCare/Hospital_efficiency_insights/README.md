@@ -74,6 +74,35 @@ Which hospitals stand out as biggest outliers overall? Does larger surgical prog
 Lastly, for a root cause analysis: what factors influence LOS and cost the most?
 
 #### Cost Analysis by Hospital
+```
+Average Cost per Discharge = 
+DIVIDE(
+    SUM(hospital_discharges[total_costs]),
+    [Total Discharges]
+)
+```
+
+#### Calculating Relative difference
+
+The average cost per discharge and average LOS vary per hospital facility,  so I need to calculate relative difference between each hospital vs the overall state average.
+First creating measures to calculate the overall state averages:
+
+
+```
+Average LOS Days ALL = CALCULATE([Average LOS Days], ALL())
+```
+
+```
+Average cost per discharge ALL = CALCULATE([Average Cost per Discharge], ALL())
+```
+
+Then, built measures to calculate percentage difference in Average Cost per Discharge between hospitals compared to the overall state average:
+```
+% Var Average Cost LOS Days = Divide(([Average LOS Days ALL]-[Average LOS Days]),[Average LOS Days ALL])
+```
+```
+% Var Average Cost per Discharge = Divide(([Average cost per discharge ALL]-[Average Cost per Discharge]),[Average cost per discharge ALL])
+```
 
 <!-- ## Creating a dynamic dashboard
 In this final chapter, you’ll focus on building your final dashboard into a cohesive and interactive report. You’ll incorporate the HealthStat branding for an appealing display, optimize user-friendly navigation features, and close off by adding a dynamic title. -->
