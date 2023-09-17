@@ -34,6 +34,31 @@ The dataset has some key attributes to analyze efficiency.
 
 Also dataset includes a unique identifier for facility, a grouping of patient age, patient's disposition, the diagnosis description, severity of illness, and risk of mortality.
 
+#### Hospital Overview
+Firts, I created a measure to calculate Total number of Hospitals and visualized the number of hospitals by Health service Area.
+```
+Total Hospitals = DISTINCTCOUNT(hospital_discharges[facility_id])
+```
+
+#### Analysis of Total Discharges
+
+Created a measure to calculate Total discharges and visualized the number of discharges by gender and age group:
+```
+Total Discharges = COUNTROWS(hospital_discharges)
+```
+
+#### Analysis of Lenght of Stay
+I explored here the LOS across same demographic fields.
+Created a measure and visualized by age and gender:
+```
+Average LOS Days = AVERAGE(hospital_discharges[length_of_stay])
+```
+
+#### Initial comparizon of hospitals (comparative analysis)
+To have visibility how Average LOS and Total discharges compare between hospitals with factoring the total number og surgeons in each hospital.
+```
+#Surgeons = DISTINCTCOUNT(hospital_discharges[operating_provider_license_number])
+```
 
 <!-- ## Analyzing Hospital Performance and Benchmarking
 
