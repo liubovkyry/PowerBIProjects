@@ -60,9 +60,20 @@ To have visibility how Average LOS and Total discharges compare between hospital
 #Surgeons = DISTINCTCOUNT(hospital_discharges[operating_provider_license_number])
 ```
 
-<!-- ## Analyzing Hospital Performance and Benchmarking
+## Analyzing Hospital Performance
 
-Roll up your sleeves and scrub in—it’s time to get operating on some insights! This chapter is all about identifying hospital performance outliers and revealing what attributes most influence length of stay and cost per patient discharge. Along the way, you’ll sharpen your DAX skills by building some more complex measures and calculated tables.
+Here I tried to identify hospital performance outliers and revealing what attributes most influence length of stay and cost per patient discharge.
 
-## Creating a dynamic dashboard
+### Introducing cost to the equation
+First task here is to add costing to the equation by assessing the average cost per discharge. This calculated by dividing sum of total costs over sum of total discharges. This metric is helpful  to compare between hospitals, and highlight areas for efficiency improvement. There are multiple factors that can impact cost of a patient stay, such as patient severity of condition, patient age, the size of the hospital, the procedure itself, types of equipment used, to name a few.
+
+### Some Insights to explore
+
+Which hospitals stand out with highest average cost and Length of Stay relative to the state averages? 
+Which hospitals stand out as biggest outliers overall? Does larger surgical program size impact LOS and cost?
+Lastly, for a root cause analysis: what factors influence LOS and cost the most?
+
+#### Cost Analysis by Hospital
+
+<!-- ## Creating a dynamic dashboard
 In this final chapter, you’ll focus on building your final dashboard into a cohesive and interactive report. You’ll incorporate the HealthStat branding for an appealing display, optimize user-friendly navigation features, and close off by adding a dynamic title. -->
