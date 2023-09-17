@@ -103,6 +103,8 @@ Then, built measures to calculate percentage difference in Average Cost per Disc
 ```
 % Var Average Cost per Discharge = Divide(([Average cost per discharge ALL]-[Average Cost per Discharge]),[Average cost per discharge ALL])
 ```
+#### Outliers:
+
 
 <!-- ## Creating a dynamic dashboard
 In this final chapter, you’ll focus on building your final dashboard into a cohesive and interactive report. You’ll incorporate the HealthStat branding for an appealing display, optimize user-friendly navigation features, and close off by adding a dynamic title. -->
